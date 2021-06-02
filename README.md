@@ -113,3 +113,7 @@ Do not forget to disable TURBO to load a real K7 audio.
 It is perfectly explained in the article How to load programs in MSX (https://programbytes48k.wordpress.com/2012/01/04/como-cargar-programas-en-msx/).
 
 In the (http://www.vintagenarios.com/hilo-oficial-wavs-msx-t1997.html) forum of **Vintagenarios** you can find many MSX programs in WAV format that can be loaded by audio.
+
+
+## AtlasFPGA using CYC1000
+For use this core you need have 50Mhz clock in "CLK_X PIN_E15 Optional clock input 3.3 V". I tried using internal 12Mhz but it wasn't work.
