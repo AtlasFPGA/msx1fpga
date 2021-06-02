@@ -154,3 +154,6 @@ Está perfectamente explicado en el artículo Cómo cargar programas en MSX (htt
 Si se quiere oir el audio de la carga será necesario utilizar la versión del core "1.2 rev. jepalza", ya que las versiones sintetizadas por Fabio no reproducen el sonido de carga, como también ocurría en ciertos MSX reales.
 
 En (http://www.vintagenarios.com/hilo-oficial-wavs-msx-t1997.html) del foro de **Vintagenarios** se pueden encontrar multitud de programas de MSX en formato WAV que se pueden cargar por audio.
+
+## AtlasFPGA using CYC1000
+Para usar este core es necesario tener un reloj de 50Mhz en "CLK_X PIN_E15 Optional clock input 3.3 V". He intentado usar el reloj de 12Mhz interno pero no funcionó.
