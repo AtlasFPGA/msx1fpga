@@ -156,4 +156,4 @@ Si se quiere oir el audio de la carga será necesario utilizar la versión del c
 En (http://www.vintagenarios.com/hilo-oficial-wavs-msx-t1997.html) del foro de **Vintagenarios** se pueden encontrar multitud de programas de MSX en formato WAV que se pueden cargar por audio.
 
 ## AtlasFPGA using CYC1000
-Para usar este core es necesario tener un reloj de 50Mhz en "CLK_X PIN_E15 Optional clock input 3.3 V". He intentado usar el reloj de 12Mhz interno pero no funcionó.
+Para usar este core es necesario tener un reloj de 50Mhz en "CLK_X PIN_E15 Optional clock input 3.3 V". Para user el reloj interno de 12mhz usa el branch "rampa-12mhz". Gracias Rampa!
