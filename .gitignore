@@ -378,3 +378,9 @@ greybox_tmp
 /src/peripheral/uart/tb_uart/transcript
 /src/peripheral/uart/tb_uart/vsim.wlf
 /src/peripheral/uart/tb_uart/work
+*~
+db/
+incremental_db/
+*.qdf
+output_files/
+

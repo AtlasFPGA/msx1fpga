@@ -55,7 +55,7 @@ use work.msx_pack.all;
 entity msx_atlas_top is
 	port (
 		-- Clocks
-		clock_50_i			: in    std_logic;
+		clock_12_i			: in    std_logic;
 
 		-- Buttons
 		btn_n_i				: in    std_logic_vector(4 downto 1);
@@ -260,7 +260,7 @@ begin
 	-- PLL1
 	pll: entity work.pll1
 	port map (
-		inclk0	=> clock_50_i,
+		inclk0	=> clock_12_i,
 		c0			=> clock_master_s,		-- 21.477 MHz					[21.484]
 		c1			=> clock_sdram_s,			-- 85.908 MHz (4x master)	[85.937]
 		c2			=> sdram_clock_o,			-- 85.908 MHz -90°
@@ -270,7 +270,7 @@ begin
 	-- PLL2
 	pll2: entity work.pll2
 	port map (
-		inclk0	=> clock_50_i,
+		inclk0	=> clock_12_i,
 		c0			=> clock_vga_s,			--  25.200
 		c1			=> clock_dvi_s				-- 126.000
 	);
