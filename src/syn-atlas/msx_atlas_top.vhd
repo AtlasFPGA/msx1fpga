@@ -56,7 +56,8 @@ entity msx_atlas_top is
 	port (
 		-- Clocks
 		clock_12_i			: in    std_logic;
-
+		clock_50_i			: in    std_logic; --for cyc1000 with 50mhz clock. If not define this it'll not work
+		
 		-- Buttons
 		btn_n_i				: in    std_logic_vector(4 downto 1);
 
