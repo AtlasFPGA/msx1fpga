@@ -116,4 +116,4 @@ In the (http://www.vintagenarios.com/hilo-oficial-wavs-msx-t1997.html) forum of 
 
 
 ## AtlasFPGA using CYC1000
-For use this core you need have 50Mhz clock in "CLK_X PIN_E15 Optional clock input 3.3 V". I tried using internal 12Mhz but it wasn't work.
+For use this core you neednt have 50Mhz clock in "CLK_X PIN_E15". Only internal 12Mhz clock use it, and its work!
